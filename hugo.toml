@@ -1,0 +1,164 @@
+baseURL = "/"
+title = "Nucleus Bio"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+#googleAnalytics = "G-XXXXXXXXXX"
+
+[params]
+fancyTitle = "Nucleus Bio" # title for frontpage, may include image
+copyright = "Pratik"
+description = 'IDE For Bioinformaticians'
+startbuttonText = "Try it Out"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Nucleus: Simplifying Bioinformatics Workflows with LLMs and WebAssembly'
+body = '''
+Nucleus is a platform that makes complex bioinformatics workflows easier and more accessible. 
+It leverages large language models and WebAssembly to automate tasks that usually require advanced computational skills, 
+such as setting up environments, handling diverse datasets, and managing software dependencies.
+'''
+
+[[params.one.icon]]
+icon = "fa-gem"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+img_alt = "blurry background: white/grey"
+title = 'Core Technology'
+body = '''
+- Large-Language Models    
+
+- WebAssembly.
+
+- Nucleus streamlines bioinformatics tasks, offering biologists a flexible, all-in-one platform.
+        '''
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Nucleus Prototype'
+body = '''
+- Nucleus Extension: A Visual Studio Code extension providing a chat interface to the LLM agent, executing bioinformatics tasks directly in the editor with the Aioli library.
+
+- Nucleus Core: The backend orchestrates tool selection and command generation for executing bioinformatics queries using WebAssembly-based tools.
+
+- Biowasm Integration: The Nucleus prototype supports 30+ pre-compiled bioinformatics tools, making it easy to add new tools to the platform.
+'''
+
+
+[params.three]
+enable = true
+title = 'The Ultimate IDE for Bioinformaticians '
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "First Feature"
+body = "Describe the first feature."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Second Feature"
+body = "Describe the second feature."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "Third Feature"
+body = "Describe the Third Feature. "
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "Fourth Feature"
+body = "Describe the Fourth Feature. "
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Fifth Feature"
+body = "Describe the Fifth Feature."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "Sixth Feature"
+body = "Describe the Sixth Feature. "
+
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "xpwajjog"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
